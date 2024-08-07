@@ -7,9 +7,9 @@ end)
 
 local games = {
     [{1554960397}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Car-Dealership-Tycoon.lua", -- Car Dealership Tycoon
-    [{2092166489}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Car-Dealership-Tycoon.lua", -- Area 51 Classic Mode
-    [{5740483929}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Car-Dealership-Tycoon.lua", -- Area 51 Hard Mode
-    [{3182083477}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Car-Dealership-Tycoon.lua", -- Area 51 Classic Extreme Mode
+    [{2092166489}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Area-51.lua", -- Area 51 Classic Mode
+    [{5740483929}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Area-51.lua", -- Area 51 Hard Mode
+    [{3182083477}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Area-51.lua", -- Area 51 Classic Extreme Mode
 }
 
 for ids, url in next, games do
