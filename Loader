@@ -26,6 +26,3 @@ Title = "Moon Team",
 Text = "There will be an update of this script in my telegram channel",
 Duration = 10,
 })
-while wait(10) do
-	for i,v in pairs(workspace:GetDescendants()) do 
-if v.name == "AntiOoB" then v:Destroy() end end end
