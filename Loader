@@ -1,5 +1,6 @@
 repeat wait() until game.Players.LocalPlayer.Character
 repeat wait() until game:IsLoaded() wait()
+
 game:GetService("Players").LocalPlayer.Idled:connect(function()
 game:GetService("VirtualUser"):ClickButton2(Vector2.new())
 end)
@@ -9,7 +10,7 @@ local games = {
     [{2092166489}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Area-51-Modes/Classic-Mode", -- Area 51 Classic Mode
     [{5740483929}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Area-51-Modes/Classic-Mode", -- Area 51 Hard Mode
     [{3182083477}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Area-51-Modes/Classic-Mode", -- Area 51 Classic Extreme Mode
-    [{4631179692}] = "", -- Killhouse
+    [{4631179692}] = "https://raw.githubusercontent.com/F347-FB/Roblox/main/Projects/Area-51-Modes/Killhouse", -- Killhouse
 }
 
 for ids, url in next, games do
