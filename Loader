@@ -21,6 +21,7 @@ for ids, url in next, games do
         break
     end
 end
+setclipboard("https://t.me/moonteam10")
 game.StarterGui:SetCore("SendNotification", {
 Title = "Moon Team",
 Text = "There will be an update of this script in my telegram channel",
